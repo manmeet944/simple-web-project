@@ -16,12 +16,12 @@
   <distributionManagement>
   
     <snapshotRepository>
-    <id>nexus-snapshots</id>
+    <id>deploy</id>
     <url>http://35.164.51.6:8081/repository/maven-releases</url>
     </snapshotRepository>
     
     <repository>
-        <id>nexus-release</id>
+        <id>deploy</id>
         <name>Internal Releases</name>
         <url>http://35.164.51.6:8081/repository/maven-snapshots</url>
 		
